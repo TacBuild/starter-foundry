@@ -1,0 +1,11 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+solc = "0.8.28"
+remappings = [
+    "tac-l2-ccl/=lib/tac-l2-ccl/",
+]
+
+[rpc_endpoints]
+tac_testnet = "https://turin.rpc.tac.build"
